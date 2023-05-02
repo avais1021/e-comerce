@@ -59,3 +59,14 @@ const discount_code = () => {
         }
 }
 // document.body.style.background = 'red';
+
+// --------remove item -------
+
+const removeItem = (card , itemPrice ) => {
+    var card = document.querySelector(card);
+    var itemval = document.querySelector(itemPrice);
+    card.style.display = 'none';
+
+    product_amnt.innerHTML = product_amnt.innerHTML - itemval.innerHTML ; 
+    total_car_amt.innerHTML = total_car_amt.innerHTML - itemval.innerHTML ;
+}
