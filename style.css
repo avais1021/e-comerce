@@ -47,6 +47,7 @@ div.main {
 }
 .remove_wish p{
     text-align: center;
+    cursor: pointer;
 }
 .remove_wish i{
     margin-right: 5px;
