@@ -67,8 +67,18 @@ div.main {
     margin-bottom: -29px;
     margin-top: 15px;
     animation: move 10s linear infinite  ;
-
-
+}
+/* #product_amnt{
+    font-weight: bold;
+} */
+.price_indiv :nth-child(2){
+    font-weight: bold;
+}
+.total-amt :nth-child(2){
+    font-weight: bold;
+}
+.deliver_date{
+    color: green;
 }
 @keyframes move {
     0%{

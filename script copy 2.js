@@ -46,8 +46,7 @@ const increment = (incdec, itemPrice) => {
 var something = true;
 
 const discount_code = () => {
-
-        if (discount_code_input.value.toLowerCase() === 'owes' && something ) { 
+        if (discount_code_input.value === 'owes' && something ) { 
             something = false;
             console.log('match');
             total_car_amt.innerHTML = total_car_amt.innerHTML - 15;
