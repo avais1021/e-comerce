@@ -58,6 +58,24 @@ div.main {
     font-style: italic;
     text-shadow: 20px -26px 3px grey;
 }
+.disc_logo img{
+    width: 176px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: -29px;
+    margin-top: 15px;
+    animation: move 10s linear infinite  ;
+
+
+}
+@keyframes move {
+    0%{
+        transform: rotate(-358deg);
+    }50%{
+        /* opacity: 0.6; */
+    }
+}
 
 @media screen and (max-width:600.9px){
     .remover{
