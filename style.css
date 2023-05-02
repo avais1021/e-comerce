@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.main {
+    min-height: 100vh;
+}
+
+.set_quantity {
+    position: relative;
+}
+
+.set_quantity::after {
+    content: "(Note, 1 piece)";
+    position: absolute;
+    top: 42px;
+    width: 100%;
+    height: 100%;
+    text-align: end;
+    padding-right: 12px;
+
+}
+
+.product_img {
+    width: 200px;
+    height: 200px;
+}
+
+.product_name{
+    font-size: 30px;
+}
+
+.card {
+    border: none;
+}
+
+.discount_code a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.remove_wish{
+    gap: 20px;
+}
+.remove_wish p{
+    text-align: center;
+}
+.remove_wish i{
+    margin-right: 5px;
+}
+.cart_page{
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-style: italic;
+    text-shadow: 20px -26px 3px grey;
+}
+
+@media screen and (max-width:600.9px){
+    .remover{
+        flex-direction: column-reverse;
+    }
+    .remover .price_money{
+        justify-content: right !important;
+        width: 100%;
+    }
+    .remover .remove_wish{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
